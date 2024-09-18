@@ -1,0 +1,39 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>0</x><y>420</y><w>100</w><h>70</h></coordinates><panel_attributes>Floor
+-
+FLoorNo
+Floor Button Panel
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>230</y><w>170</w><h>170</h></coordinates><panel_attributes>LIFT
+-
+-id
+-Door
+-Lift Button Panel
+-currFloor
+-ismovingUp
+-startFloor
+-EndFloor
+-
++Moving(source,Destination)
++DidIReach()
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>110</y><w>200</w><h>70</h></coordinates><panel_attributes>Lift Button Panel
+-
++PressDestinationFloor(currFloor,Destibation FLoor)
++messageDisplay()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>0</y><w>140</w><h>50</h></coordinates><panel_attributes>Button panel(Interface)
+-
++messageDisplay()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>410</y><w>240</w><h>80</h></coordinates><panel_attributes>Dispatcher
+-
+List&lt;&gt;Lifts
+List&lt;&gt;Floor
+-
++schedule(request)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>280</y><w>100</w><h>60</h></coordinates><panel_attributes>Door 
+-
++Open()
++close()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>130</y><w>240</w><h>70</h></coordinates><panel_attributes>Floor Button Panel
+-
+-currFloor
+-
++requestElevator(currFloor, destination)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>170</y><w>170</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>150;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>40</y><w>90</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>70;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>40</y><w>70</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;50;90</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>270</y><w>150</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>390</y><w>230</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;210;60</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>460</y><w>230</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;210;10</additional_attributes></element></diagram>

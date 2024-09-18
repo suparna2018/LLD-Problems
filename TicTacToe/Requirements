@@ -1,0 +1,34 @@
+Tic-Tac-Toe
+
+-Use case description
+
+-The 1st player chooses X and the other player chooses O. First played places the cross on board and 2nd player places O. One player wins and game ends else draw happens.
+
+-Triggers
+First player puts cross on board.
+
+-Actors
+Player1
+Player2
+Board (3X3)
+Board Game
+
+-Predictions
+-2 players avaiable 
+-Board is available
+
+
+
+-Goals
+Game ends in Draw
+Game ends in One player winning
+
+-Further Extensions
+
+-Extend it for NXN
+
+-Exec steps:
+
+-1st player puts X
+-2nd player's turn to put O
+-Repeat upto the point the board is filled , Tell who wins.

@@ -1,0 +1,36 @@
+-Coin Flip
+
+-Use Case Descrition
+
+A player at random is picked to offer a prediction on the coin flip, The other player gets chance to guess, The coin flipped, The correct guesser wins the game.
+
+-Trigger
+
+A player at random offers a prediction for the coin flip.
+
+-Actors
+
+1st player who makes the first prediction
+2nd player
+Coin
+Coin game
+
+-Predictions
+
+Two players available
+Coin available
+
+-Goals
+
+One player wins
+
+
+-Not Avaiable
+
+Failed Conclusion
+Extension
+
+-Execution Steps
+
+1. A player at random is picked to predict coin flip
+2. The player picked offers a prediction of the coin flip

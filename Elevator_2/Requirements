@@ -1,0 +1,44 @@
+Elevator
+
+-Use Case Descrition
+A user comes presses the Button Panel, Available lift comes,Door Opens and passenger boards and presses the destination Floor
+and Lift reaches the destination, Door Opens,Passenger leaves.
+
+-Trigger
+A passenger comes and presses the button of destination floor.
+
+-Actors
+
+-passenger
+-lift
+-Door
+-ButtonPanel
+-Lift Buutton Panel
+-Dispatcher
+
+
+
+-Predictions
+-Passenger reaches the floor successfully.
+-Lift Door opens when reaching the calling floor and called floor.
+
+-Goals
+
+-Passenger reaches the floor successfully.
+
+
+-Not Avaiable
+-Emergency functions
+-Smart Door Sense
+
+
+-Execution Steps
+
+-A passenger comes and presses the floor button panel,
+-Dispatcher checks for the avaiable lift,
+-Lift comes to the calling floor
+-Door Opens,passenger boards
+-Passenger presses lift button Panel
+-Lift starts moving towards destination
+-Lift reaches the destination,
+-Door opens, Passenger leaves.

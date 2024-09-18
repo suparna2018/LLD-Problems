@@ -1,0 +1,17 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>140</x><y>410</y><w>100</w><h>70</h></coordinates><panel_attributes>Floor
+-
+Floor Button Panel</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>250</y><w>100</w><h>90</h></coordinates><panel_attributes>LIFT
+-
+id
+Door
+Lift Button Panel
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>140</y><w>100</w><h>50</h></coordinates><panel_attributes>Lift Button Panel
+-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>0</y><w>140</w><h>50</h></coordinates><panel_attributes>Button panel(Interface)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>400</y><w>100</w><h>80</h></coordinates><panel_attributes>Dispatcher
+-
+List&lt;&gt;Lifts
+List&lt;&gt;Floor
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>450</x><y>270</y><w>100</w><h>60</h></coordinates><panel_attributes>Door 
+-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>450</x><y>130</y><w>130</w><h>70</h></coordinates><panel_attributes>Floor Button Panel
+-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>180</y><w>110</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>40</y><w>90</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>70;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>40</y><w>70</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;50;90</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>290</y><w>160</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>140;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>330</y><w>60</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;40;110</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>450</y><w>120</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;100;10</additional_attributes></element></diagram>

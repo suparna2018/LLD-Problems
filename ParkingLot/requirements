@@ -1,0 +1,45 @@
+Parking Lot
+
+-Use Case Descrition
+
+-ParkignLot has Multiple parkingLevel
+-Multiple category of parking space
+-Multiple parking space entry and Exit
+-Should nt allow more vehicles than allocated space for eachh category
+-charge is hourly basis
+-Display the number of parking for each category at entry itself.
+
+-Trigger
+
+Customer wishes to park his vehicle for certain hours
+
+-Actors
+
+-ParkignLot
+-parkingFloor
+-parkingspace
+-vehicles
+-User
+-EntryGate
+-ExitGate
+
+
+-Predictions
+
+-Customer parks his vehicle sucessfully and completes 
+the payment successfully at entry and recieves tokenNumber.
+
+-Goals
+
+
+-Execution Steps
+
+-Customer comes with his vehicle
+-Entry gate person checks avaulable plot for the Customer vehicle type, if free then allocates a spot.
+-generates token number
+-Calculates parkingspace price 
+-Customer pays money
+-Vehicle is parkes to its designated space.
+
+-At exit gate the customer gives bak token number 
+-Vehicle exits successfully.
