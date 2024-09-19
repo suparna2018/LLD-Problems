@@ -1,0 +1,12 @@
+Amazon LLD::
+
+Requirements:::
+
+1.Customer should be able to Place Order
+2.Customer chooses and pics Items in the cart, can remove item from Cart,
+3.Customer can put items in wishList
+4.Customer should be able to see review of Other Users and Put review of a product purchased
+5.Customer should be able to do payment successfully
+6.Should be Able to track Order and Shipping Status.
+
+
