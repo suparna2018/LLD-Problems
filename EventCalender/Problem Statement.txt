@@ -1,0 +1,44 @@
+Problem Statement:
+You are tasked with designing an Event Calendar System similar to Google Calendar or Microsoft Outlook. Users should be able to create, update, and delete events. They should also be able to set reminders, invite other users, and check for conflicts between events. Additionally, the system should support recurring events and be scalable to handle millions of users.
+
+Key Requirements:
+
+1.Create and Manage Events:
+
+Users should be able to create an event with a title, description, time, date, and location.
+Support for editing or deleting existing events.
+
+2.Invite and Share Events:
+
+Users should be able to invite others to their events, and invited users should be able to accept or reject the invitation.
+Reminders:
+
+3.Users should be able to set reminders for upcoming events (e.g., 10 minutes, 1 hour before the event).
+Recurring Events:
+
+4.Support for recurring events (daily, weekly, monthly, etc.).
+Event Conflicts:
+
+5.The system should detect conflicts in the user's schedule when adding a new event.
+Scalability:
+
+6.The system should be scalable to handle millions of users and events efficiently.
+Notifications:
+
+7.Users should receive notifications (email/SMS/app) about upcoming events, invitations, and reminders.
+
+8.Optional Features:
+Timezone Support: Handle events across different time zones.
+Search and Filter: Users should be able to search for events and filter by date, title, or location.
+Sync Across Devices: The event calendar should sync seamlessly across multiple devices (e.g., mobile, web).
+
+
+Considerations:
+How will you store events and manage conflict detection efficiently?
+How will you design the system to handle millions of users and events without performance degradation?
+What technology stack would you consider for building the system?
+How will you ensure that reminders and notifications are sent on time?
+
+
+Time:
+4 to 60 mins
