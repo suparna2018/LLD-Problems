@@ -1,0 +1,22 @@
+Design the backend system for a Hotel Management System that handles the following core functionalities:
+
+-Room booking (check availability, make reservations, cancel bookings).
+-Customer management (register, update details, view history).
+-Staff management (add staff, assign roles, schedule shifts).
+-Payment processing (accept payments, refunds).
+-Inventory management (track available rooms, maintenance, etc.).
+
+
+
+Consider the following:
+
+-The system should be able to handle multiple hotels.
+-The design should focus on scalability, clean data models, and efficient interactions between components.
+-Describe how the system would handle key use cases like booking a room and processing payments.
+
+
+Follow-up:
+Explain the class diagram, including key entities like Hotel, Room, Reservation, Customer, etc.
+Discuss how you would handle concurrency for room bookings.
+How would you structure the database schema for bookings, payments, and customer management?
+Feel free to start with a high-level approach and we can zoom into specific components as needed.

@@ -1,0 +1,42 @@
+You are tasked with designing a simplified version of Splitwise, the popular expense-sharing application. The system should allow users to split expenses among a group of people, track balances, and settle payments. You need to focus on how the system will handle the following functionalities:
+
+-Adding expenses: Users should be able to add expenses and specify how the expense should be split among the group (equally or unequally).
+
+-Calculating balances: The system should track how much each user owes or is owed by others.
+
+-Settling debts: Users should be able to record payments when settling debts.
+
+
+-------------------------------------------------------------------------------------------------------------------
+Given these requirements, describe how you would design the classes and data structures for this system. 
+
+Please consider scalability, future extensibility, and ensure that the solution handles edge cases such as circular debt payments (e.g., A owes B, B owes C, C owes A).
+
+Feel free to assume a small group size for now (e.g., 3-10 users per group), but mention how your design could scale if the group size increases.
+
+How would you design this system from a low-level perspective, focusing on the key classes, methods, and interactions between components?"
+
+
+------------------------------------------------------------------------------------------------------------
+
+
+A- 7000               
+--------------------
+A-500
+B-4000
+C-1000
+D-1000
+E-500
+--------------------
+A-500
+B- -3000    1000
+C-0
+D-0
+E-500        0
+
+----------------------
+
+c-1000
+
+c:500
+A: 500   250    250
